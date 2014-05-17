@@ -83,14 +83,14 @@
 .da-slide .da-img{
 	text-align: center;
 	width: 50%;
-	top: 80px;
+	top: -19px;
 	height: 328px;
 	line-height: 320px;
 	left: 110%; /*60%*/
 	margin-left:-16%;
 }
 .da-slide-current .da-img{
-	left: 60%;
+	left: 66%;
 	opacity: 1;
 }
 
