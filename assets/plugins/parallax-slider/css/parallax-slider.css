@@ -35,8 +35,15 @@
 .da-slide .da-link,
 .da-slide .da-img{
 	position: absolute;
-	opacity: 0;
+	
 	left: 110%;
+
+}
+.da-slide p{
+	position: abolute;
+	left: 110%
+	width: 25%
+
 }
 .da-slider-fb .da-slide h2,
 .da-slider-fb .da-slide p,
@@ -83,22 +90,22 @@
 .da-slide .da-img{
 	text-align: center;
 	width: 50%;
-<<<<<<< HEAD
+
 	top: -19px;
-=======
-	top: 80px;
->>>>>>> master
+
+	top: -9px;
+
 	height: 328px;
 	line-height: 320px;
 	left: 110%; /*60%*/
 	margin-left:-16%;
 }
 .da-slide-current .da-img{
-<<<<<<< HEAD
-	left: 66%;
-=======
+
+	left: 76%;
+
 	left: 60%;
->>>>>>> master
+
 	opacity: 1;
 }
 
