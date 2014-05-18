@@ -17,7 +17,7 @@
 	width: 100%;
 	height: 100%;
 	top: 0px;
-	left: 0px;
+	left: 79px;
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 	text-align: left;
 }
@@ -91,18 +91,18 @@
 	text-align: center;
 	width: 50%;
 
-	top: -19px;
+	top: -4px;
 
-	top: -9px;
+	top: 30px;
 
 	height: 328px;
 	line-height: 320px;
-	left: 110%; /*60%*/
+	left: 111%; /*60%*/
 	margin-left:-16%;
 }
 .da-slide-current .da-img{
 
-	left: 76%;
+	left: 84%;
 
 	left: 60%;
 
@@ -710,10 +710,10 @@
 @media (min-width: 1440px) {
 	.da-slide h2,
 	.da-slide p {
-		margin-left:3%;
+		margin-left: 5%;
 	}
 	.da-slide .da-img{
-		margin-left:-18%;
+		margin-left: -17%;
 	}
 }
 

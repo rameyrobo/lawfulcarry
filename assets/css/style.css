@@ -804,6 +804,7 @@
 	padding: 25px 0 30px;
 	border-bottom: solid 1px #eee;
 	background: url("../img/breadcrumbs.png") repeat;
+	text-align: center;
 }
 .purchase p {
 	margin-bottom: 0;
