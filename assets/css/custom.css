@@ -1,10 +1,10 @@
 div.da-img.dayoutubevideo {
     top: 10px;
-    margin-left: -489px;
+    margin-left: -669px;
 }
 
 div.da-img.da-ruger {
-margin-left: -624px;
+margin-left: -744px;
 }
 
 p.para1 {
@@ -14,4 +14,39 @@ p.para1 {
 
 h2.shadowh2 {
     text-align: center;
+}
+
+
+
+h2.slide1 {
+    text-align: center;
+   
+}
+h2.slide2 {
+    text-align: center;
+    margin-left: 30px;
+}
+
+h2.slide3 {
+    text-align: center;
+    margin-left: 92px;
+}
+
+i.southCarolinaI {
+}
+p.slide2para {
+    top: 305px;
+    margin-left: 53px;
+}
+p.para1 {
+    top: 286px;
+    margin-left: -415px;
+}
+p.para3youtube {
+    top: 261px;
+    margin-left: -685px;
+}
+
+div.da-img.opening {
+    margin-left: -275px;
 }
