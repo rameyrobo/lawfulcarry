@@ -1,10 +1,10 @@
 div.da-img.dayoutubevideo {
     top: 10px;
-    margin-left: -669px;
+    margin-left: -569px;
 }
 
 div.da-img.da-ruger {
-margin-left: -744px;
+margin-left: -634px;
 }
 
 p.para1 {
@@ -39,8 +39,8 @@ p.slide2para {
     margin-left: 53px;
 }
 p.para1 {
-    top: 286px;
-    margin-left: -415px;
+    top: 266px;
+    margin-left: -285px;
 }
 p.para3youtube {
     top: 261px;
@@ -49,4 +49,13 @@ p.para3youtube {
 
 div.da-img.opening {
     margin-left: -275px;
+}
+
+p.youtubeparaslide {
+    margin-left: -625px;
+    top: 275px;
+}
+
+div.col-md-6.md-margin-bottom-30 {
+    text-align: center;
 }
