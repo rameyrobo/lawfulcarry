@@ -63,3 +63,9 @@ div.col-md-6.md-margin-bottom-30 {
 div.headline.headlinelinks {
     text-align: right;
 }
+
+p.testimonialBottom {
+    padding-bottom: 18px;
+}
+
+body { padding-top: 0; }

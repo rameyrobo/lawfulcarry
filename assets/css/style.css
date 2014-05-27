@@ -271,7 +271,7 @@
 /*Brand*/
 .header .navbar-brand { 
 	z-index: 1;
-	top: 39px;
+	top: -15px;
 	position: relative;
 	padding: 0 10px 10px;
 }
@@ -363,7 +363,7 @@
 @media (min-width: 767px) {
 	/*Navbar Collapse*/
 	.header .navbar-collapse {
-		top: 36px;
+		top: 0;
 	}
 
 	/*Navbar*/
@@ -602,13 +602,13 @@
 }
 
 .header-fixed .header.header-fixed-shrink {
-	top: -42px;
+	top: -39px;
 	left: 0;
 	width: 100%;
 	height: 95px;
 	z-index: 9999;
 	position: fixed;
-	margin-top: -5px;
+	margin-top: 14px;
 	background: rgba(255,255,255, 0.9);
 	border-bottom-color: #f5f5f5;
 	-webkit-transition: height 0.6s;
@@ -689,7 +689,7 @@
 
 	/*Toggle*/
 	.header-fixed .navbar-toggle {
-		margin-top: 9px;
+		margin-top: 43px;
 	}
 
 	/*Search*/
