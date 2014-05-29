@@ -598,7 +598,7 @@
 ------------------------------------*/
 /*Header*/
 .header-fixed .header {
-	height: 78px;
+	height: 81px;
 }
 
 .header-fixed .header.header-fixed-shrink {
@@ -689,7 +689,7 @@
 
 	/*Toggle*/
 	.header-fixed .navbar-toggle {
-		margin-top: 43px;
+		margin-top: 0px;
 	}
 
 	/*Search*/
