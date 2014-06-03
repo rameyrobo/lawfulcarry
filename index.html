@@ -35,11 +35,11 @@
     <link rel="stylesheet" href="styles/hover.css">
     <script src="scripts/vendor/d7100892.modernizr.js"></script>
   </head>
-  <body class="header-fixed">    
+  <body>    
 
 <div class="wrapper">
      <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top fadeInDown" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -48,22 +48,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../index.html">Lawful Carry</a>
+          <a href="#top"><img src="images/e75561b5.lawfulcarrylogo.png" alt="Lawful Carry Concealed Weapons Permits" style="width:47%"></a>
         </div>
         <div class="navbar-collapse collapse smartscroll-nav">
           <ul class="nav navbar-nav" style="float:right">
-            <li><a href="#aboutus" class="scroll">About Us</a></li>
-            <li><a href="#links" class="scroll">Links</a></li>
-            <li><a href="#testimonials" class="scroll">Testimonials</a></li>
-            <li><a href="#calendar" class="scroll">Calendar</a></li>
-            <li><a href="#contact" class="scroll">Contact Us</a></li>
+            <li class="innerNavBarCell"><a href="#aboutus" class="scroll"><h2 class="innerNav">About Us</h2></a></li>
+            <li class="innerNavBarCell"><a href="#links" class="scroll"><h2 class="innerNav">Links</h2></a></li>
+            <li class="innerNavBarCell"><a href="#testimonials" class="scroll"><h2 class="innerNav">Testimonials</h2></a></li>
+            <li class="innerNavBarCell"><a href="#calendar" class="scroll"><h2 class="innerNav">Calendar</h2></a></li>
+            <li class="innerNavBarCell"><a href="#contact" class="scroll"><h2 class="innerNav">Contact Us</h2></a></li>
         </ul></div><!--/.nav-collapse -->
       </div>
     </div>
   <!-- /Navbar -->  
 
     <!--=== Slider ===-->
-    <div class="slider-inner">
+    <div class="slider-inner" id="top">
         <div id="da-slider" class="da-slider">
             <div class="da-slide da-slide-current">
                 <h2><i>South</i> <br> <i>FULLY RESPONSIVE</i> <br> <i>DESIGN</i></h2>
@@ -116,7 +116,7 @@
                                             <h4>Protection</h4>
                                             <p>It's that feeling you get knowing you are able to protect yourself and your loved ones should trouble occur
                                         </p>
-                                    <img src="images/04a0d070.guarddog.jpg">
+                                    <img src="images/04a0d070.guarddog.jpg" class="overlay">
                                     </div>
                                     </div>
                                 </div>
@@ -912,7 +912,10 @@
 </div>
     <!-- Wrapper -->
 
-       <div class="container">
+       <div class="headerCalendar" id="calendar">
+            <h2>Class Calendar</h2>
+       </div>
+
       <!-- Responsive calendar - START -->
         <div class="responsive-calendar">
         <div class="controls">
@@ -934,7 +937,7 @@
         </div>
       </div>
       <!-- Responsive calendar - END -->
-    </div>
+  
 
 <!-- Contact Form -->
 <div class="col-md-9 mb-margin-bottom-30" id="contact">
@@ -1068,6 +1071,12 @@
         <script type="text/javascript" src="scripts/responsive-calendar.js"></script>
 
        <!-- JS Page Level -->
+
+       <script type="text/javascript">
+$( document ).ready( function() {
+  $('.responsive-calendar').responsiveCalendar();
+});
+</script>
        
       
         <script type="text/javascript">
@@ -1076,6 +1085,7 @@
         App.initSliders();
         App.handleHeader();
         Index.initParallaxSlider();
+        Calendar.responsiveCalendar();
         });
         </script>
 
@@ -1084,11 +1094,7 @@
                         <!--[if lt IE 9]>
                         <script src="scripts/respond.js"></script>
                         <![endif]-->
-        <script type="text/javascript">
-$( document ).ready( function() {
-  $('.responsive-calendar').responsiveCalendar();
-});
-</script>
+        
                        
                     
                     <div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer">
